@@ -1,4 +1,4 @@
-print("¡Hola Mundo! Este es mi primer programa en Python, que locura ")
+print("¡Hola Mundo! Este es mi primer programa en Python, locura ")
 
 
 
