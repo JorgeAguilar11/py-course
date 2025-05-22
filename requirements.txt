@@ -1,0 +1,2 @@
+# Aquí puedes listar tus dependencias, por ejemplo:
+# requests==2.31.0
