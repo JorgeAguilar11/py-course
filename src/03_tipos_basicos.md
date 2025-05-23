@@ -164,6 +164,94 @@ print(bool(-1))         # True
 
 ---
 
+# ➕➖✖️➗ Operadores en Python
+
+Los operadores te permiten realizar operaciones con variables y valores.  
+Aquí tienes los más usados:
+
+## 🔢 Operadores Aritméticos
+
+| Operador | Descripción           | Ejemplo         | Resultado      |
+|----------|-----------------------|-----------------|---------------|
+| `+`      | Suma                  | `2 + 3`         | `5`           |
+| `-`      | Resta                 | `5 - 2`         | `3`           |
+| `*`      | Multiplicación        | `4 * 3`         | `12`          |
+| `/`      | División              | `10 / 2`        | `5.0`         |
+| `//`     | División entera       | `7 // 2`        | `3`           |
+| `%`      | Módulo (resto)        | `8 % 3`         | `2`           |
+| `**`     | Potencia              | `2 ** 3`        | `8`           |
+
+```python
+a = 10
+b = 3
+print(a + b)   # 13
+print(a - b)   # 7
+print(a * b)   # 30
+print(a / b)   # 3.333...
+print(a // b)  # 3
+print(a % b)   # 1
+print(a ** b)  # 1000
+```
+
+---
+
+## 🔍 Operadores de Comparación
+
+Sirven para comparar valores y devuelven un booleano (`True` o `False`):
+
+| Operador | Significado      | Ejemplo      | Resultado   |
+|----------|------------------|--------------|-------------|
+| `==`     | Igual a          | `5 == 5`     | `True`      |
+| `!=`     | Distinto de      | `3 != 2`     | `True`      |
+| `>`      | Mayor que        | `7 > 4`      | `True`      |
+| `<`      | Menor que        | `2 < 1`      | `False`     |
+| `>=`     | Mayor o igual    | `5 >= 5`     | `True`      |
+| `<=`     | Menor o igual    | `3 <= 2`     | `False`     |
+
+---
+
+## 🤔 Operadores Lógicos
+
+Permiten combinar condiciones:
+
+| Operador | Descripción | Ejemplo             | Resultado   |
+|----------|-------------|---------------------|-------------|
+| `and`    | Y           | `True and False`    | `False`     |
+| `or`     | O           | `True or False`     | `True`      |
+| `not`    | No          | `not True`          | `False`     |
+
+```python
+x = 5
+print(x > 2 and x < 10)   # True
+print(x < 2 or x > 3)     # True
+print(not(x == 5))        # False
+```
+
+---
+
+## 🧩 Operadores de Asignación
+
+Sirven para asignar y actualizar valores en variables:
+
+| Operador | Ejemplo      | Equivalente a      |
+|----------|--------------|--------------------|
+| `=`      | `x = 5`      | Asigna 5 a x       |
+| `+=`     | `x += 2`     | `x = x + 2`        |
+| `-=`     | `x -= 1`     | `x = x - 1`        |
+| `*=`     | `x *= 3`     | `x = x * 3`        |
+| `/=`     | `x /= 4`     | `x = x / 4`        |
+| `//=`    | `x //= 2`    | `x = x // 2`       |
+| `%=`     | `x %= 3`     | `x = x % 3`        |
+| `**=`    | `x **= 2`    | `x = x ** 2`       |
+
+```python
+x = 10
+x += 5   # x ahora es 15
+x *= 2   # x ahora es 30
+```
+
+---
+
 ## 🔄 Conversión entre Tipos de Datos
 
 Python permite convertir entre diferentes tipos de datos usando funciones de conversión.
@@ -337,6 +425,7 @@ frase = "Me encanta programar en Python"
 - Los booleanos representan verdadero (`True`) o falso (`False`)
 - Python permite conversión entre tipos de datos
 - Usa `type()` e `isinstance()` para verificar tipos de variables
+- ¡Y ahora también conoces los operadores más importantes!
 
 ---
 
